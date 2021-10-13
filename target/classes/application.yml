@@ -1,0 +1,6 @@
+#nom de la base de données 
+spring.data.mongodb.database: book 
+#nom du container construit avec l'image mongodb
+spring.data.mongodb.host: mongo_container
+#port qui est utiliser par le container (port par defaut de mongodb)
+spring.data.mongodb.port: 27017
